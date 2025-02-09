@@ -16,5 +16,6 @@ CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 git pull
 git branch -D $BRANCH_NAME
 git checkout -b $BRANCH_NAME
+make build
 git push -f origin $BRANCH_NAME
 git checkout $CURRENT_BRANCH
