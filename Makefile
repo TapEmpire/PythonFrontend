@@ -5,4 +5,5 @@ dev:
 	FLASK_ENV=development python app.py
 
 install:
-	pip install -r requirements.txt
+	python3 -m venv venv
+	./venv/bin/pip install -r requirements.txt
