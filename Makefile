@@ -1,3 +1,4 @@
+# first use "source venv/bin/activate"
 run:
 	python app.py
 
